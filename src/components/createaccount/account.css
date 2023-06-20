@@ -1,0 +1,60 @@
+input[type="text"],
+[type="email"],
+[type="password"],
+[type="date"] {
+  padding: 5px;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.account_main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px;
+  border: 3px solid whitesmoke;
+  box-shadow: 2px 2px 1px lightgrey;
+  width: 100%;
+}
+.full_name {
+  display: flex;
+  justify-content: space-between;
+}
+.password {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.details > h4 {
+  padding: 15px;
+  text-align: center;
+}
+.details > form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+.details > form button {
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  width: 500px;
+}
+.details > form button:active {
+  background-color: blue;
+}
+.details > form p {
+  color: red;
+  font-size: 12px;
+}
+.photo img {
+  width: 500px;
+  height: 450px;
+}

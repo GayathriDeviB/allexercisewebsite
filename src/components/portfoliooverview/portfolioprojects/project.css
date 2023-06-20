@@ -1,0 +1,82 @@
+.proj_info button > img {
+  width: 15px;
+}
+.proj_info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.proj_info button {
+  border: outset;
+  background-color: wheat;
+  padding: 10px;
+}
+.proj_info button:active {
+  background-image: linear-gradient(sandybrown, khaki);
+  transform: translateY(4px);
+}
+.projects h3 {
+  color: brown;
+}
+.project1,
+.project2,
+.project3 {
+  border: inset;
+  padding: 20px;
+  height: 250px;
+  width: 350px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.project1:hover,
+.project2:hover,
+.project3:hover {
+  background-image: radial-gradient(sandybrown, brown);
+}
+.projects {
+  display: flex;
+  gap: 20px;
+}
+.projects img {
+  width: 50px;
+  height: 50px;
+}
+.project_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+@media (max-width: 1100px) {
+  .project1,
+  .project2,
+  .project3 {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .project_main,
+  .projects {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    width: 740px;
+  }
+}
+@media (max-width: 480px) {
+  .projects,
+  .project_main {
+    flex-wrap: wrap;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    width: 460px;
+  }
+}

@@ -1,0 +1,52 @@
+.project1_allcontent h1 {
+  text-shadow: 2px 2px 3px brown;
+  padding: 15px;
+}
+.project1_allcontent img {
+  width: 200px;
+  height: 200px;
+}
+.project1_allcontent p {
+  font-size: 30px;
+  text-shadow: 2px 2px 4px brown;
+}
+.project1content_info {
+  border: dashed;
+  width: 800px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 55px;
+  border-radius: 20%;
+  background-color: salmon;
+  transition: height 2s;
+}
+.project1_allcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project1content_info:hover {
+  height: 750px;
+  background-color: khaki;
+}
+@media (max-width: 768px) {
+  .project1content_info {
+    width: 750px;
+    height: 750px;
+  }
+  .project1content_info:hover {
+    height: 800px;
+  }
+}
+@media (max-width: 480px) {
+  .project1content_info {
+    width: 450px;
+    height: 1120px;
+  }
+  .project1content_info:hover {
+    height: 1130px;
+  }
+}

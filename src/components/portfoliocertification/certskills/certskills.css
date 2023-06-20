@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  background-color: darkgray;
+  margin: 0px 2px 0px 15px;
+}
+.container {
+  color: black;
+  text-align: left;
+  font-family: cursive;
+  padding: 3px;
+  background-color: grey;
+}
+.skillsmain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+}
+.skillshtml {
+  width: 75%;
+  background-color: khaki;
+}
+.skillscss,
+.skillsjs {
+  width: 60%;
+  background-color: khaki;
+}
+#html,
+#css,
+#js {
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 2px 0 1px 15px;
+}
+.skillsmain h1 {
+  color: brown;
+  text-shadow: 2px 2px sandybrown;
+}

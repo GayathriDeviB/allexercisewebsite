@@ -1,0 +1,28 @@
+.education img {
+  width: 50px;
+  height: 50px;
+}
+.edu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding: 25px;
+}
+.educationmain {
+  padding: 25px;
+}
+.educationmain h1 {
+  color: brown;
+  text-shadow: 2px 2px sandybrown;
+}
+@media (max-width: 480px) {
+  .edu {
+    flex-wrap: wrap;
+  }
+}

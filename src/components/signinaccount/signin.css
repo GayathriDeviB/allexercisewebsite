@@ -1,0 +1,45 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.signin_main {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 80px;
+  /* gap: 30px; */
+  border: 3px solid lightskyblue;
+  border-radius: 20px;
+  width: 1000px;
+  /* margin: 30px; */
+}
+.account > h4 {
+  font-size: 20px;
+}
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  width: 300px;
+}
+.account > form button {
+  padding: 10px;
+  width: 300px;
+  background-color: lightskyblue;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.account > form button:active {
+  background-color: blue;
+}
+.account > form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 15px;
+}
+.account > form p {
+  color: red;
+}

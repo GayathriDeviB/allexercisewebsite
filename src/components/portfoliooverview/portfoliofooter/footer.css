@@ -1,0 +1,57 @@
+.conclusion > nav {
+  display: flex;
+  gap: 30px;
+}
+.conclusion nav a {
+  font-size: 20px;
+  color: brown;
+  text-decoration: none;
+}
+.conclusion nav h1:active {
+  color: black;
+}
+.find_me img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.find_me,
+.find_me2 {
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+}
+.media_icons img {
+  width: 50px;
+  height: 50px;
+}
+.find_me_main > #mail img {
+  width: 30px;
+  height: 30px;
+}
+.find_me_main > #mail {
+  display: flex;
+  justify-content: center;
+}
+.media_icons nav {
+  display: flex;
+  gap: 15px;
+}
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-image: linear-gradient(burlywood, khaki, white);
+}
+@media (max-width: 480px) {
+  .conclusion {
+    flex-wrap: wrap;
+  }
+  .conclusion > nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

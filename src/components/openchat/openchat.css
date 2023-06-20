@@ -1,0 +1,94 @@
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(204, 199, 199);
+}
+.about img {
+  width: 20px;
+  height: 20px;
+}
+.about,
+.chatsinside + form {
+  display: flex;
+}
+.post {
+  display: flex;
+  gap: 50px;
+}
+.chatpage {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+.followers,
+.all_profiles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#msg,
+#foll {
+  color: rgb(5, 119, 156);
+  border: 2px solid rgb(5, 119, 156);
+  padding: 5px;
+}
+#msg,
+.chatsinside + form > button {
+  background-color: lightblue;
+  border: none;
+}
+.chatsinside + form > button img,
+input[type="image"] {
+  width: 40px;
+  height: 40px;
+}
+.chatpageopen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: lightblue;
+  padding: 15px;
+  width: 450px;
+}
+#type_message {
+  width: 80%;
+  padding: 5px;
+  background-image: linear-gradient(lightblue, white);
+  border: outset;
+  outline: none;
+}
+.chatsinside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.chat1,
+.chat3 {
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10%;
+}
+.chat1 + div {
+  margin-right: 200px;
+  background-color: white;
+  padding: 10px;
+  border: outset;
+}
+.openchatmain {
+  display: flex;
+  padding: 15px;
+  border: outset;
+  width: 1000px;
+  justify-content: space-between;
+}
+.all_profiles h4 {
+  color: rgb(27, 144, 216);
+}

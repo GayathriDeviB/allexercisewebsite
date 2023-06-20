@@ -1,0 +1,40 @@
+.headermain h3 {
+  background-color: rgb(43, 167, 243);
+  color: white;
+  padding: 5px;
+}
+.headermain > form > button img {
+  width: 25px;
+}
+#b3 {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.headermain > form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#b4 {
+  background-color: rgb(70, 82, 82);
+  color: lightskyblue;
+  width: 70px;
+  border: none;
+}
+.headermain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 2px 1px grey;
+  padding: 10px;
+}
+#b2,
+#b3,
+#b1 {
+  border: none;
+}
+.headermain a {
+  text-decoration: none;
+}
